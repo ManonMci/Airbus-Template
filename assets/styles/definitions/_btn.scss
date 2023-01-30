@@ -1,0 +1,41 @@
+
+.button{
+&--primary{
+    border: 1px solid $brand-02;
+  display:flex;
+justify-content: center;
+align-items: center;
+padding: 11px 24px;
+width: 34%;
+
+}
+
+&--secondary{
+    color:white;
+    border: 1px solid $secondary-03;
+    background-color: $secondary-03;
+    display: flex;
+justify-content: center;
+align-items: center;
+padding: 11px 24px;
+width: 34%;
+}
+
+&--contact{
+  background-color:white;
+  border: 1px solid $secondary-03;
+  display: flex;
+justify-content: center;
+align-items: center;
+padding: 11px 24px;
+width: 50%;
+font-size:20px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+color:$brand-03;
+
+}
+
+}
+

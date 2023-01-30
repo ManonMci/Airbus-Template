@@ -1,0 +1,8 @@
+.w-bloc {
+    @include breakpoint($md) {
+        padding: 56px 0;
+    }
+    &--background {
+        background: $gray-04;
+    }
+}

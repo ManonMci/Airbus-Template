@@ -1,0 +1,51 @@
+
+.background-bloc-spot-card{
+    background:$gray-01;  
+    position:relative; 
+    @include breakpoint($xl) {
+        display:flex;
+        margin:auto;
+        position:static;
+        align-items:center;
+    }
+}
+
+.w-bloc-spot-card{
+    background-color:white;
+    width:90%;
+    margin:auto;
+    position:relative;
+    top:6em;
+   
+    @include breakpoint($xl) {
+        background-color: $gray-03;
+        position:static;
+        align-items:center;
+    }
+
+}
+
+.image-background{
+    width:100%;
+    height:200px;
+    background-image: url("/assets/images/background.jpg");
+    background-repeat:no-repeat;
+    object-fit:contain;
+}
+
+.h2-text{
+    margin-bottom:1em;
+    margin-top:2.5em;
+    padding:0.5em;
+}
+
+.p-text p{
+    margin-bottom:1em;
+    font-size:18px;
+}
+
+.card-contact{
+    background:$brand-03;
+    color:white;
+    padding:2.5em 2em 2em 1em;
+}

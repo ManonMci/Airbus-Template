@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+.h1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: $primary-01;
+    @include breakpoint($md) {
+        font-size: 40px;
+        line-height: 47px;
+    }
+    @include breakpoint($xl) {
+        font-size: 48px;
+        line-height: 56px;
+    }
+}
+.h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: $brand-01;
+    margin-bottom:0.5em;
+}
+.h1.title-white {
+    color:white;
+    font-family:"Roboto";
+    font-size:36px;
+}
+
+.h2.title-white {
+    color:white;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 300;
+    margin-top:0.5em;
+    font-size:32px;
+}
+
+.h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    color: $brand-01;
+}
+.h4 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 32px;
+    color: $brand-01;
+}
+.h4-white {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 32px;
+    color: white;
+    margin-bottom:0.5em;
+}
+.h5 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    color: $brand-01;
+}
+
+.h5-white{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    color: white;
+    padding:1em;
+}
+.headline{
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: white;
+    width:100%;
+}
+

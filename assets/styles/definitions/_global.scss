@@ -1,0 +1,33 @@
+.container {
+    width: 100%;
+    margin: auto;
+    @include breakpoint($lg) {
+        grid-template-columns: repeat(12, 1fr);
+    }
+    @include breakpoint($xl) {
+        grid-template-columns: repeat(12, 1fr);
+    }
+}
+.row {
+   
+    grid-gap: 24px;
+    @include breakpoint($lg) {
+        grid-template-columns: repeat(12, 1fr);
+    }
+    @include breakpoint($xl) {
+        grid-template-columns: repeat(12, 1fr);
+    }
+}
+
+.content{
+    width:90%;
+    margin:auto;
+   
+    @include breakpoint($lg) {
+        grid-template-columns: repeat(12, 1fr);
+    }
+    @include breakpoint($xl) {
+        grid-template-columns: repeat(12, 1fr);
+    }
+}
+
